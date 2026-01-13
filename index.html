@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crochet by Tina</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #222;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .product {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .product button {
+      margin-top: 10px;
+      padding: 10px;
+      background: #25D366;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .product button:hover {
+      opacity: 0.9;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Crochet by Tina</h1>
+  <p>Handmade crochet items</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#products">Products</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container" id="products">
+  <h2>Our Products</h2>
+
+  <div class="products">
+
+    <div class="product">
+      <img src="https://via.placeholder.com/300">
+      <h3>Crochet Bag</h3>
+      <p>₦10,000</p>
+      <a href="https://wa.me/234XXXXXXXXXX?text=I%20want%20to%20order%20the%20Crochet%20Bag">
+        <button>Order on WhatsApp</button>
+      </a>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/300">
+      <h3>Crochet Hat</h3>
+      <p>₦5,000</p>
+      <a href="https://wa.me/234XXXXXXXXXX?text=I%20want%20to%20order%20the%20Crochet%20Hat">
+        <button>Order on WhatsApp</button>
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<footer id="contact">
+  <p>📞 Contact: WhatsApp Orders Only</p>
+  <p>© 2026 Crochet by Tina</p>
+</footer>
+
+</body>
+</html>
